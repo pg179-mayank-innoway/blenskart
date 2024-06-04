@@ -1,0 +1,3 @@
+bootstrap mein carousel aagya hai niche now what we have to do is change 3 images with diff id and do it 
+phir iska responsive design Banega 
+this is css project 3 in same named folder 

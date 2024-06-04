@@ -19,6 +19,9 @@ body{
     align-items: center;
     padding-left : 2vw;
 }
+#hidden{
+    display:none;
+}
 #elem2{
     grid-row: 1/2;
     grid-column :2;
@@ -100,4 +103,17 @@ body{
 }
 #third{
     object-position: 55% 50%;
+}
+@media (max-width: 600px) {
+    body {
+        grid-template-columns: 50% 50%;
+        grid-template-rows :12% 18% 30% 40%;
+    }
+    #elem2 ul{
+        display : none;
+    }
+    #hidden{
+        display:block;
+    }
+   
 }
