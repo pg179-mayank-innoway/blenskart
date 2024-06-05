@@ -132,7 +132,6 @@ body{
         grid-row :2;
         justify-content : flex-start;
         align-items : center;
-        padding-left : 2vw;
     }
     #smelem3 li{
         display : inline;
@@ -147,7 +146,6 @@ body{
         grid-row :3;
         justify-content : flex-start;
         align-items : flex-end;
-        padding-left : 2vw;
     }
     #smelem3x li{
         display : inline;
