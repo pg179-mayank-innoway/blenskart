@@ -163,14 +163,14 @@ body{
         grid-row : 5;
     }
     #first{
-        object-position: 60% -120px;
+        object-position: 50% -130px;
     }
     #second{
-        object-position :55% -140px;
+        object-position :55% -180px;
     }
     
     #third{
-        object-position: 80% -70px;
+        object-position: 80% -80px;
     }
    
 }
