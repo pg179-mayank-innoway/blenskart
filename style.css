@@ -55,6 +55,12 @@ body{
 #elem3 li:hover{
     font-size: larger;
 }
+#smelem3{
+    display: none;
+}
+#smelem3x{
+    display:none;
+}
 #elem4 {
     grid-row : 3;
     grid-column : 1/3;
@@ -104,16 +110,55 @@ body{
 #third{
     object-position: 55% 50%;
 }
-@media (max-width: 600px) {
+@media (max-width: 640px) {
     body {
         grid-template-columns: 50% 50%;
-        grid-template-rows :12% 18% 30% 40%;
+        grid-template-rows :12% 9% 9% 30% 40%;
     }
     #elem2 ul{
         display : none;
     }
     #hidden{
         display:block;
+    }
+    #elem3{
+        display : none;
+    }
+    #smelem3{
+        display: flex;
+        flex-direction : row;
+        text-transform: uppercase;
+        grid-column: 1/3;
+        grid-row :2;
+        justify-content : flex-start;
+        align-items : center;
+        padding-left : 2vw;
+    }
+    #smelem3 li{
+        display : inline;
+        list-style-type: none;
+        margin-right : 4vw;
+    }
+    #smelem3x{
+        display: flex;
+        flex-direction : row;
+        text-transform: uppercase;
+        grid-column: 1/3;
+        grid-row :3;
+        justify-content : flex-start;
+        align-items : flex-end;
+        padding-left : 2vw;
+    }
+    #smelem3x li{
+        display : inline;
+        list-style-type: none;
+        margin-right : 4vw;
+    }
+    #elem4{
+        grid-row : 4;
+    }
+    #elem5{
+        grid-row : 5;
     }
    
 }
