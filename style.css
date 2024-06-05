@@ -136,7 +136,7 @@ body{
     #smelem3 li{
         display : inline;
         list-style-type: none;
-        margin-right : 4vw;
+        margin-right : 2vw;
     }
     #smelem3x{
         display: flex;
@@ -150,7 +150,7 @@ body{
     #smelem3x li{
         display : inline;
         list-style-type: none;
-        margin-right : 4vw;
+        margin-right : 2vw;
     }
     #elem4{
         grid-row : 4;
