@@ -3,9 +3,13 @@
     margin:0;
     padding:0;
 }
+html{
+    height : 100%;
+    width : 100%;
+}
 body{
-    height : 100vh;
-    width : 100vw; 
+    height : 100%;
+    width : 100%; 
     display : grid ;
     grid-template-columns: 50% 50%;
     grid-template-rows :10% 8% 40% 42%;
