@@ -158,5 +158,14 @@ body{
     #elem5{
         grid-row : 5;
     }
+    #first{
+        object-position: bottom;
+    }
+    #second{
+        object-position: center;
+    }
+    #third{
+        object-position: top;
+    }
    
 }
